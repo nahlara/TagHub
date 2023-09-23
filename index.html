@@ -1,50 +1,202 @@
-<!DOCTYPE html><html lang="en_us">
+<!DOCTYPE html>
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cards TagHub</title>
+    <title>Home</title>
     <link
       rel="shortcut icon"
       href="./images/favicon_card.jpg"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="../styles/reset.css" />
-    <link rel="stylesheet" href="../styles/cardsPage.css" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/home/index.css" />
   </head>
 
-  <header>
-    <img class="logo" src="../images/cep_logo.png" alt="logo Cep" />
-    <div class="project-title">
-      <p>Trabalho Programação Web - Tag<strong>Hub</strong></p>
-    </div>
-  </header>
-
   <body>
+    <header class="header">
+      <div class="header_title">
+        <img
+          class="header_title_logo"
+          src="../images/cep_logo.png"
+          alt="logo Cep"
+        />
+        <h1 class="header_title_text">
+          Trabalho Programação Web - Tag<strong>Hub</strong>
+        </h1>
+      </div>
+    </header>
+
     <div id="line"></div>
 
-    <main class="container">
-      <div class="ficha-tec">
-        <div class="ficha">
+    <main class="main">
+      <section class="main_ficha">
+        <article class="main_ficha_info">
           <h2>Ficha técnica:</h2>
           <p><strong>Prof.: </strong>Fernando Emrich</p>
           <p><strong>Ano:</strong> 2023</p>
-        </div>
+        </article>
 
-        <div class="tech">
-          <p>Tecnologias usadas:</p>
-          <ul class="little-icon">
+        <article class="main_ficha_info">
+          <h3>Tecnologias usadas:</h3>
+          <ul class="main_ficha_little_icon">
             <li>github</li>
             <li>html</li>
             <li>css</li>
           </ul>
+        </article>
+
+        <a class="main_ficha_button" href="./pages/tagHub.html">GO TO APP</a>
+      </section>
+
+      <section class="cards">
+        <header class="cards_header">
+          <h1 class="cards_header_text">Integrantes do grupo:</h1>
+        </header>
+        <!-- Isaque Card -->
+        <div class="card">
+          <header class="card_header">
+            <figure class="card_header_image">
+              <img
+                src="./images/animal/panda.svg"
+                alt="imagem perfil 1"
+                class="card_header_image"
+              />
+            </figure>
+            <article class="card_header_identity">
+              <h4 class="card_header_identity_name">Isaque Claudino</h4>
+              <p class="card_header_identity_course">
+                Técnico em Informática
+                <span>CEP 2023</span>
+              </p>
+            </article>
+          </header>
+          <main class="card_main">
+            <article class="card_main_skills">
+              <h5 class="card_main_skills_title">Skills:</h5>
+              <p class="card_main_skills_text">
+                Developer Web, HTML5, CSS3 and JS.
+              </p>
+            </article>
+            <section class="card_main_social">
+              <div class="card_main_line"></div>
+              <div class="card_main_social_links">
+                <img src="./images/logos/github.svg" alt="logo Git Hub" />
+                <img src="./images/logos/instagram.svg" alt="logo instagra" />
+                <img src="./images/logos/linkedin.svg" alt="logo linkedIn" />
+              </div>
+            </section>
+          </main>
         </div>
+        <!-- Ledson Card -->
+        <div class="card">
+          <header class="card_header">
+            <figure class="card_header_image">
+              <img
+                src="./images/animal/leao.svg"
+                alt="imagem perfil 1"
+                class="card_header_image"
+              />
+            </figure>
+            <article class="card_header_identity">
+              <h4 class="card_header_identity_name">Isaque Claudino</h4>
+              <p class="card_header_identity_course">
+                Técnico em Informática
+                <span>CEP 2023</span>
+              </p>
+            </article>
+          </header>
 
-        <a class="button-app" href="./pages/tagHub.html">Go to app</a>
-      </div>
+          <main class="card_main">
+            <article class="card_main_skills">
+              <h5 class="card_main_skills_title">Skills:</h5>
+              <p class="card_main_skills_text">
+                Developer Web, HTML5, CSS3 and JS.
+              </p>
+            </article>
+            <section class="card_main_social">
+              <div class="card_main_line"></div>
+              <div class="card_main_social_links">
+                <img src="./images/logos/github.svg" alt="logo Git Hub" />
+                <img src="./images/logos/instagram.svg" alt="logo instagra" />
+                <img src="./images/logos/linkedin.svg" alt="logo linkedIn" />
+              </div>
+            </section>
+          </main>
+        </div>
+        <!-- Fernando Card -->
+        <div class="card">
+          <header class="card_header">
+            <figure class="card_header_image">
+              <img
+                src="./images/animal/coruja.svg"
+                alt="imagem perfil 1"
+                class="card_header_image"
+              />
+            </figure>
+            <article class="card_header_identity">
+              <h4 class="card_header_identity_name">Isaque Claudino</h4>
+              <p class="card_header_identity_course">
+                Técnico em Informática
+                <span>CEP 2023</span>
+              </p>
+            </article>
+          </header>
 
-      <div class="cards">
-        <h5>Integrantes do grupo:</h5>
-      </div>
+          <main class="card_main">
+            <article class="card_main_skills">
+              <h5 class="card_main_skills_title">Skills:</h5>
+              <p class="card_main_skills_text">
+                Developer Web, HTML5, CSS3 and JS.
+              </p>
+            </article>
+            <section class="card_main_social">
+              <div class="card_main_line"></div>
+              <div class="card_main_social_links">
+                <img src="./images/logos/github.svg" alt="logo Git Hub" />
+                <img src="./images/logos/instagram.svg" alt="logo instagra" />
+                <img src="./images/logos/linkedin.svg" alt="logo linkedIn" />
+              </div>
+            </section>
+          </main>
+        </div>
+        <!-- Natali Card -->
+        <div class="card">
+          <header class="card_header">
+            <figure class="card_header_image">
+              <img
+                src="./images/animal/panda.svg"
+                alt="imagem perfil 1"
+                class="card_header_image"
+              />
+            </figure>
+            <article class="card_header_identity">
+              <h4 class="card_header_identity_name">Isaque Claudino</h4>
+              <p class="card_header_identity_course">
+                Técnico em Informática
+                <span>CEP 2023</span>
+              </p>
+            </article>
+          </header>
+
+          <main class="card_main">
+            <article class="card_main_skills">
+              <h5 class="card_main_skills_title">Skills:</h5>
+              <p class="card_main_skills_text">
+                Developer Web, HTML5, CSS3 and JS.
+              </p>
+            </article>
+            <section class="card_main_social">
+              <div class="card_main_line"></div>
+              <div class="card_main_social_links">
+                <img src="./images/logos/github.svg" alt="logo Git Hub" />
+                <img src="./images/logos/instagram.svg" alt="logo instagra" />
+                <img src="./images/logos/linkedin.svg" alt="logo linkedIn" />
+              </div>
+            </section>
+          </main>
+        </div>
+      </section>
     </main>
   </body>
 </html>
