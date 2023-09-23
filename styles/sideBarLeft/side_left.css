@@ -1,0 +1,9 @@
+.side_left {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--lat_esq);
+  border-right: 4px solid white;
+  padding: 1%;
+}
