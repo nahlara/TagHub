@@ -1,7 +1,7 @@
 @import './sideRight.css';
 @import './sideBarLeft/index.css';
 @import './arrow.css';
-@import "./utils.css";
+@import "../utils.css";
 
 
 body {
