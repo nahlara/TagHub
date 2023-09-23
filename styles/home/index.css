@@ -2,6 +2,7 @@
 @import './header.css';
 @import './main_ficha.css';
 @import './card.css';
+@import './mediaQuery.css';
 
 :root {
   /* GLOBAL VARS */
@@ -27,6 +28,7 @@
 body {
   height: 100vh;
   color: var(--global-font-color);
+  background-color: var(--bg-main);
 }
 
 .main {
@@ -38,6 +40,7 @@ body {
 }
 
 .cards {
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
 }
