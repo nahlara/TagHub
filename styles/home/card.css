@@ -1,5 +1,6 @@
 .card {
   width: 50%;
+  height: max-content;
   background-color: var(--bg-card);
   padding: 2%;
   border: 10px solid var(--bg-main);
@@ -15,8 +16,8 @@
 
 .card_header_image {
   border-radius: 10px;
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   object-fit: cover;
   object-position: center;
 }
@@ -25,7 +26,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1%;
+  padding: 2%;
 }
 
 .card_header_identity_name {
@@ -42,7 +43,6 @@
 .card_main {
   height: 20%;
   display: flex;
-  padding: 2%;
 }
 
 .card_main_skills,.card_main_social {
@@ -52,6 +52,7 @@
 .card_main_skills {
   width: 60%;
   display: flex;
+  flex-direction: column;
 }
 
 .card_main_skills_title {
