@@ -1,4 +1,13 @@
-@import "./sideRight.css";
-@import "./sideLeft.css";
-@import "./tree.css";
-@import "./arrow.css";
+@import './sideRight.css';
+@import './sideBarLeft/index.css';
+@import './arrow.css';
+@import "./utils.css";
+
+body {
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  height: 100%;
+}
