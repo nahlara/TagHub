@@ -1,0 +1,326 @@
+<!DOCTYPE html><html lang="pr-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="x-icon" href="../images/favicon/favicon_logo.png" />
+    <title>TagHub</title>
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/index.css" />
+  </head>
+  <body>
+    <main>
+      <!---------------------
+       --- SIDE BAR LEFT ---
+       ---------------------->
+      <aside class="side_left">
+        <header class="side_left_title">
+          <h1 class="side_left_title_text">
+            <span class="side_left_title_sub_text">Tag</span>Hub
+          </h1>
+          <figure class="side_left_title_logos">
+            <img
+              src="../images/htmlLogo.svg"
+              alt="html logo"
+              class="side_left_title_logos_logo"
+            />
+            <img
+              src="../images/cssLogo.svg"
+              alt="css log"
+              class="side_left_title_logos_logo"
+            />
+          </figure>
+        </header>
+
+        <section class="tree">
+          <header class="tree_header">
+            <h2 class="tree_header_text">Árvore de nós - HTML</h2>
+          </header>
+
+          <main class="tree_content">
+            <section class="tree_content_node">
+              <img
+                src="../images/arrow/l_arrow.svg"
+                alt="Flecha"
+                class="left_arrow"
+              />
+              <a href="#tutorial_html" class="tree_content_node_link half_width">HTML</a>
+              <img
+                src="../images/arrow/l_arrow.svg"
+                alt="Flecha"
+                class="right_arrow"
+              />
+            </section>
+
+            <section class="tree_content_node">
+              <section class="tree_content_node_column">
+                <a href="#tutorial_head" class="tree_content_node_link">head</a>
+                <div class="tree_content_2_nodes">
+                  <img
+                    src="../images/arrow/down_arrow.svg"
+                    alt="down arrow"
+                    class="down_arrow"
+                  />
+                  <img
+                    src="../images/arrow/down_arrow.svg"
+                    alt=""
+                    class="down_arrow"
+                  />
+                </div>
+              </section>
+
+              <section class="tree_content_node_column">
+                <a href="#tutorial_body" class="tree_content_node_link">body</a>
+                <div class="tree_content_3_nodes">
+                  <img
+                    src="../images/arrow/down_arrow.svg"
+                    alt="flecha"
+                    class="down_arrow"
+                  />
+                  <img
+                    src="../images/arrow/down_arrow.svg"
+                    alt="flecha"
+                    class="down_arrow"
+                  />
+                  <img
+                    src="../images/arrow/down_arrow.svg"
+                    alt="flecha"
+                    class="down_arrow"
+                  />
+                </div>
+              </section>
+            </section>
+
+            <section class="tree_content_node">
+              <div class="tree_content_2_nodes">
+                <a href="#tutorial_title" class="tree_content_node_link">title</a>
+                <a href="#tutorial_meta" class="tree_content_node_link">meta</a>
+              </div>
+              <div class="tree_content_3_nodes">
+                <a href="#tutorial_p" class="tree_content_node_link">p</a>
+                <a href="#tutorial_h1" class="tree_content_node_link">h1</a>
+                <a href="#tutorial_link" class="tree_content_node_link">link</a>
+              </div>
+            </section>
+          </main>
+        </section>
+      </aside>
+
+      <!---------------------
+       --- SIDE BAR RIGHT ---
+       ---------------------->
+      <aside class="side_right">
+        <!-- Tutoria HTML -->
+        <div class="side_content">
+          <p id="tutorial_html" class="side_content_node">
+            <span class="side_content_title">HTML</span>
+            <span class="side_content_icon">{}</span>
+            <span class="side_content_text">
+              Este seletor faz referência à tag root ou raiz em uma página web
+            </span>
+          </p>
+
+          <ul class="side_content_code_example">
+            <li>
+              <span class="code_primary">html</span>
+              <span class="code_key">{</span>
+            </li>
+            <li>
+              <span class="code_attribute">margin</span
+              ><span class="code_assign">:</span>
+              <span class="code_value">0</span
+              ><span class="code_measure">px</span
+              ><span class="code_attribute_end">;</span>
+            </li>
+            <li>
+              <span class="code_attribute">padding</span
+              ><span class="code_assign">:</span>
+              <span class="code_value">0</span
+              ><span class="code_measure">px</span
+              ><span class="code_attribute_end">;</span>
+            </li>
+            <li>
+              <span class="code_key">}</span>
+            </li>
+          </ul>
+        </div>
+        <!-- Tutoria Head -->
+        <div class="side_content">
+          <p id="tutorial_head" class="side_content_node">
+            <span class="side_content_title">HEAD</span>
+            <span class="side_content_icon">{}</span>
+            <span class="side_content_text">
+              Seletor cabeçalho é uma tag que fornece informações gerais ou
+              metadados sobre o documento.
+            </span>
+          </p>
+
+          <div class="side_content_code_example">
+            <h3 class="code_none">| Sem aplicações práticas em css</h3>
+          </div>
+        </div>
+        <!-- Tutoria Title -->
+        <div class="side_content">
+          <p id="tutorial_title" class="side_content_node">
+            <span class="side_content_title">Title</span>
+            <span class="side_content_icon">{}</span>
+            <span class="side_content_text">
+              Seletor usado na tag head para definir na aba do navegador um
+              título.
+            </span>
+          </p>
+
+          <div class="side_content_code_example">
+            <h3 class="code_none">| Sem aplicações práticas em css</h3>
+          </div>
+        </div>
+        <!-- Tutoria Meta -->
+        <div class="side_content">
+          <p id="tutorial_meta" class="side_content_node">
+            <span class="side_content_title">Meta</span>
+            <span class="side_content_icon">{}</span>
+            <span class="side_content_text">
+              Seletor usado na tag head para definir na aba do navegador um
+              título.
+            </span>
+          </p>
+
+          <div class="side_content_code_example">
+            <h3 class="code_none">| Sem aplicações práticas em css</h3>
+          </div>
+        </div>
+        <!-- Tutoria body -->
+        <div class="side_content">
+          <p id="tutorial_body" class="side_content_node">
+            <span class="side_content_title">Body</span>
+            <span class="side_content_icon">{}</span>
+            <span class="side_content_text">
+              Seletor especifica as relações entre o documento atual e um
+              recurso externo
+            </span>
+          </p>
+
+          <ul class="side_content_code_example">
+            <li>
+              <span class="code_primary">body</span>
+              <span class="code_key">{</span>
+            </li>
+            <li>
+              <span class="code_attribute">color</span
+              ><span class="code_assign">:</span>
+              <span class="code_text">grey</span
+              ><span class="code_attribute_end">;</span>
+            </li>
+            <li>
+              <span class="code_attribute">background-color</span
+              ><span class="code_assign">:</span>
+              <span class="code_text">#fce</span
+              ><span class="code_attribute_end">;</span>
+            </li>
+            <li>
+              <span class="code_key">}</span>
+            </li>
+          </ul>
+        </div>
+        <!-- Tutoria Link -->
+        <div class="side_content">
+          <p id="tutorial_link" class="side_content_node">
+            <span class="side_content_title">Link</span>
+            <span class="side_content_icon">{}</span>
+            <span class="side_content_text">
+              Seletor especifica as relações entre o documento atual e um
+              recurso externo
+            </span>
+          </p>
+
+          <ul class="side_content_code_example">
+            <li>
+              <span class="code_primary">link</span>
+              <span class="code_key">{</span>
+            </li>
+            <li>
+              <span class="code_attribute">color</span
+              ><span class="code_assign">:</span>
+              <span class="code_text">red</span
+              ><span class="code_attribute_end">;</span>
+            </li>
+            <li>
+              <span class="code_attribute">padding</span
+              ><span class="code_assign">:</span>
+              <span class="code_text">none</span
+              ><span class="code_attribute_end">;</span>
+            </li>
+            <li>
+              <span class="code_key">}</span>
+            </li>
+          </ul>
+        </div>
+        <!-- Tutoria h1 -->
+        <div class="side_content">
+          <p id="tutorial_h1" class="side_content_node">
+            <span class="side_content_title">h1</span>
+            <span class="side_content_icon">{}</span>
+            <span class="side_content_text">
+              Seletor representa um título varia de h1 ate h6, sendo h2 o
+              subtitulo de h1
+            </span>
+          </p>
+
+          <ul class="side_content_code_example">
+            <li>
+              <span class="code_primary">h1</span>
+              <span class="code_key">{</span>
+            </li>
+            <li>
+              <span class="code_attribute">text-align</span
+              ><span class="code_assign">:</span>
+              <span class="code_text">center</span
+              ><span class="code_attribute_end">;</span>
+            </li>
+            <li>
+              <span class="code_attribute">font-size</span
+              ><span class="code_assign">:</span>
+              <span>3<span class="code_measure">em</span></span
+              ><span class="code_attribute_end">;</span>
+            </li>
+            <li>
+              <span class="code_key">}</span>
+            </li>
+          </ul>
+        </div>
+        <!-- Tutoria p -->
+        <div class="side_content">
+          <p id="tutorial_p" class="side_content_node">
+            <span class="side_content_title">p</span>
+            <span class="side_content_icon">{}</span>
+            <span class="side_content_text">
+              Seletor para texto qualquer a letra "p" é uma abreviação de
+              parágrafo, mas e usado para estruturar seus textos
+            </span>
+          </p>
+
+          <ul class="side_content_code_example">
+            <li>
+              <span class="code_primary">p</span>
+              <span class="code_key">{</span>
+            </li>
+            <li>
+              <span class="code_attribute">text-align</span
+              ><span class="code_assign">:</span>
+              <span class="code_text">left</span
+              ><span class="code_attribute_end">;</span>
+            </li>
+            <li>
+              <span class="code_attribute">color</span
+              ><span class="code_assign">:</span>
+              <span class="code_text">blue</span
+              ><span class="code_attribute_end">;</span>
+            </li>
+            <li>
+              <span class="code_key">}</span>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+  </body>
+</html>
