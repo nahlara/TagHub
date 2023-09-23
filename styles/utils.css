@@ -28,3 +28,7 @@
   width: 100%;
 }
 
+
+.nowrap {
+  text-wrap: nowrap;
+}
