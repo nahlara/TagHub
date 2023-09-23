@@ -11,6 +11,11 @@
   font-size: 2.5em;
 }
 
+.side_left_title_sub_text {
+  font-family: Cambria;
+  font-weight: 400;
+}
+
 .side_left_title_logos {
   display: flex;
 }
