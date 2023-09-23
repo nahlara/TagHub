@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
+
+.side {
+  background-color: #121212;
+  color: #fefefe;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  overflow-y: scroll;
+}
+
+.side::-webkit-scrollbar {
+  background-color: purple;
+  width: 20px;
+  scroll-padding: 1%;
+}
+
+.side::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius:  10px;
+  border: 5px solid purple;
+}
+
+.side_content {
+  margin-top: 5%;
+}
+
+.side_content:nth-child(1) {
+  margin: 0;
+}
+
+.side_content_title {
+  font-size: 1.2em;
+  color: #fcb93d;
+}
+
+.side_content_icon {
+  font-family: "Fira Code";
+  color: #ffff57;
+}
+
+
+.side_content_code_example {
+  width: 100%;
+  font-size: 1.3em;
+  line-height: 1.2em;
+  font-family: "Fira Code";
+  background-color: #222222;
+  border-radius: 3px;
+  padding: 3%;
+}
+
+.side_content_code_example .code_key {
+  color: white;
+}
+
+.side_content_code_example .code_primary {
+  color: #00ee00;
+}
+
+.side_content_code_example .code_attribute {
+  color: #2266ff;
+  padding-left: 2%;
+}
+
+.side_content_code_example .code_assign {
+  color: #ff55ee;
+}
+
+.side_content_code_example .code_measure {
+  color: #ff55ee;
+}
+
+.side_content_code_example .code_none {
+  color: #fcb93d;
+}
+
+.side_content_code_example .code_text {
+  color: #dd0000;
+}

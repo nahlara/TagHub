@@ -1,0 +1,39 @@
+
+body {
+    height: 100vh;
+}
+
+main {
+   display: flex; 
+   height: 100%;
+}
+
+/* Lateral Esquerda */
+
+.side_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--lat_esq);
+    color: var(--color);
+    padding: 15px;
+}
+
+/* Imagem Lateral Esquerda  */
+
+.logo {
+    width: 90%;
+}
+
+.logo > img {
+    width: 100%;
+}
+
+
+/* Lateral direita */
+
+
+.lat_dir {
+    background-color: var(--lat_dir);
+}

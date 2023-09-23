@@ -1,0 +1,111 @@
+/* Buttons content 2*/
+
+.tree-button {
+    height: 350px;
+    font-size: 1.5rem;
+    background-color: var(--boto_tree);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+.tree-button > h3 {
+    color: var(--lat_esq);
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.box-tree-button {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.ht-button {
+    /* padding: 0px 130px 0px 130px; */
+    margin: 0 5px;
+}
+
+.geral-button {
+    padding: 13px;
+    margin: 5px;
+    background-color: var(--back_color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hb-button {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+}
+
+/* Config. Botões alinhamento arrows */
+
+.meaning {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0!important;
+}
+
+.meaning div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.meaning div:last-of-type {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;    
+}
+
+/* Pseudo-Classes Botões */
+
+
+/* SVG */
+
+.flex  {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.l-arrow {
+    width: 15%;
+    transform: translateY(50%);
+}
+
+.r-arrow {
+    width: 15%;
+    transform: scaleX(-100%) translateY(50%);
+}
+
+.arrow-hb-bd {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.arrow-hb-bd div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.arrow-hb-bd div:last-of-type {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;    
+}
+
+.d-arrow{
+    width: 20px;
+}
+

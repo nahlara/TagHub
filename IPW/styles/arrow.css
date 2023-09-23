@@ -1,0 +1,30 @@
+.left_arrow {
+    width: 10%;
+    transform: translateY(13%);
+}
+
+.right_arrow {
+    width: 10%;
+    transform: scaleX(-100%) translateY(13%);
+}
+
+.down_arrow{
+    width: 20px;
+}
+
+.arrow-hb-bd {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.arrow-hb-bd div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.arrow-hb-bd div:last-of-type {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;    
+}
