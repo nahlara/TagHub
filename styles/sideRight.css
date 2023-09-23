@@ -8,6 +8,7 @@
   flex-direction: column;
   width: 75%;
   overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 .side_right::-webkit-scrollbar {
