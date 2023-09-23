@@ -1,8 +1,8 @@
 .card {
   width: 50%;
-  background-color: #000000;
+  background-color: var(--bg-card);
   padding: 2%;
-  border: 10px solid var(--container);
+  border: 10px solid var(--bg-main);
   border-radius: 15px;
 }
 
@@ -61,14 +61,14 @@
 
 .card_main_skills_text {
   font-size: 0.7em;
-  color: #aaaaaa;
+  color: var(--font-skills-color);
 }
 
 .card_main_line {
   width: 100%;
   height: 4px;
   border-radius: 10px;
-  background: red;
+  background: #ff55ff;
 }
 
 .card_main_social_links {
@@ -78,5 +78,5 @@
 }
 
 .card_main_social_links img {
-  width: 12%;
+  width: 15%;
 }

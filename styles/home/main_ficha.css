@@ -18,17 +18,16 @@
   justify-content: space-around;
   width: 190px;
   font-size: 0.8em;
-  color: var(--li-button);
+  color: var(--little-font-color);
   margin: 5px;
-  list-style: circle inside white;
 }
 
 .main_ficha_button {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #475893;
-  color: #ffffff;
+  background-color: var(--bg-ficha-button);
+  color: var(--font-color-ficha-button);
   border-radius: 10px;
   width: 50%;
   height: 10%;

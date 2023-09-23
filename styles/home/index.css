@@ -4,23 +4,36 @@
 @import './card.css';
 
 :root {
-  --back_color: #1d243e;
-  --nav_color: #ffb547;
-  --container: #111526;
-  --letter_color: #ffffff;
-  --li-button: #afafaf;
+  /* GLOBAL VARS */
+  --global-font-color: #ffffff;
+  --line-color: #ffb547;
+
+  /* HEADER VARS */
+  --bg-header: #1d243e;
+
+  /* MAIN VARS */
+  --bg-main: #111526;
+
+  /* FICHA VARS */
+  --bg-ficha-button: #475893;
+  --font-color-ficha-button: #efefef;
+  --little-font-color: #afafaf;
+  
+  /* CARD VARS */
+  --bg-card: #000000; 
+  --font-skills-color: #aaaaaa;
 }
 
 body {
   height: 100vh;
-  color: var(--letter_color);
+  color: var(--global-font-color);
 }
 
 .main {
   width: 100%;
   height: 100%;
   display: flex;
-  background-color: var(--container);
+  background-color: var(--bg-main);
   padding: 2%;
 }
 
@@ -35,5 +48,5 @@ body {
 
 #line {
   width: 100%;
-  border-bottom: 4px solid var(--nav_color);
+  border-bottom: 4px solid var(--line-color);
 }
