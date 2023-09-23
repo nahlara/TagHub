@@ -5,6 +5,7 @@
   padding: 2%;
   border: 10px solid var(--bg-main);
   border-radius: 15px;
+  font-size: 1.2em;
 }
 
 .card_header {
@@ -16,8 +17,8 @@
 
 .card_header_image {
   border-radius: 10px;
-  width: 130px;
-  height: 130px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   object-position: center;
 }
