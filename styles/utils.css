@@ -1,0 +1,25 @@
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.around {
+  justify-content: space-around;
+}
+
+.half_width {
+  width: 50%;
+}
+
+.width_full {
+  width: 100%;
+}
+
