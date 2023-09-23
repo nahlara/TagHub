@@ -1,0 +1,17 @@
+.header_title {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--back_color);
+  padding: 2%;
+}
+
+.header_title_logo {
+  width: 90px;
+  margin: 10px;
+  padding: 0 0 0 5px;
+}
+
+
+

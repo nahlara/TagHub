@@ -1,0 +1,39 @@
+@import '../utils.css';
+@import './header.css';
+@import './main_ficha.css';
+@import './card.css';
+
+:root {
+  --back_color: #1d243e;
+  --nav_color: #ffb547;
+  --container: #111526;
+  --letter_color: #ffffff;
+  --li-button: #afafaf;
+}
+
+body {
+  height: 100vh;
+  color: var(--letter_color);
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: var(--container);
+  padding: 2%;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards_header {
+  width: 100%;
+}
+
+#line {
+  width: 100%;
+  border-bottom: 4px solid var(--nav_color);
+}
