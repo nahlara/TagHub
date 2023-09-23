@@ -1,0 +1,82 @@
+:root {
+  --back_color: #1d243e;
+  --nav_color: #ffb547;
+  --container: #111526;
+}
+
+:root {
+  --letter_color: #ffffff;
+  --li-button: #afafaf;
+}
+
+header {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 10px auto;
+}
+
+body {
+  background-color: var(--back_color);
+  color: var(--letter_color);
+}
+
+.logo {
+  width: 90px;
+  margin: 10px;
+  padding: 0 0 0 5px;
+}
+
+.project-title {
+  display: flex;
+  padding: 10px;
+  color: var(--letter_color);
+  font-size: 2rem;
+}
+
+#line {
+  width: 100%;
+  border-bottom: 4px solid var(--nav_color);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 35% 1fr;
+  height: 600px;
+  background-color: var(--container);
+}
+
+/* Lateral Esquerda - Ficha Técnica e Botão */
+
+.ficha-tec {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+}
+
+.tech {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.little-icon {
+  display: flex;
+  justify-content: space-around;
+  width: 190px;
+  font-size: 65%;
+  color: var(--li-button);
+  margin: 5px;
+}
+
+.button-app {
+  cursor: pointer;
+}
+
+.cards {
+  background-color: aquamarine;
+}
