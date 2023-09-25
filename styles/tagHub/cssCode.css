@@ -1,0 +1,52 @@
+:root {
+    --codeCss-key-color: white;
+    --codeCss-selector-color: #33ee33;
+    --codeCss-attribute-color: #2266ff;
+    --codeCss-assign-color: #ff55ee;
+    --codeCss-measure-color: #ff55ee;
+    --codeCss-text-color: #ef2222;
+    --codeCss-number-color: #efefef;
+  }
+  
+  .cssCode {
+    width: 100%;
+    font-size: 1.3em;
+    line-height: 1.2em;
+    font-family: 'Fira Code';
+    background-color: #222222;
+    border-radius: 6px;
+    padding: 3%;
+    list-style: none;
+    letter-spacing: 1px;
+  }
+  
+  .cssCode_key {
+    color: var(--codeCss-key-color);
+  }
+  
+  .cssCode_selector {
+    color: var(--codeCss-selector-color);
+  }
+  
+  .cssCode_attribute {
+    color: var(--codeCss-attribute-color);
+    padding-left: 4%;
+  }
+  
+  .cssCode_assign {
+    color: var(--codeCss-assign-color);
+  }
+  
+  .cssCode_measure {
+    color: var(--codeCss-measure-color);
+    font-weight: 550;
+  }
+  
+  .cssCode_text {
+    color: var(--codeCss-text-color);
+  }
+  
+  .cssCode_number {
+    color: var(--codeCss-text-color);
+  }
+  
