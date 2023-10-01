@@ -1,11 +1,11 @@
 .card {
   width: 50%;
-  height: max-content;
+  height: 55%;
   background-color: var(--bg-card);
   padding: 2%;
   border: 10px solid var(--bg-main);
   border-radius: 15px;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .card_header {
@@ -71,6 +71,7 @@
   height: 4px;
   border-radius: 10px;
   background: #ff55ff;
+  margin: 1%;
 }
 
 .card_main_social_links {
@@ -79,6 +80,13 @@
   padding: 2%;
 }
 
-.card_main_social_links img {
-  width: 15%;
+
+.card_main_social_links a {
+  display: inline-block;
+  width: 100%;
+
+}
+
+.card_main_social_links  img {
+  width: 50%;
 }

@@ -13,3 +13,32 @@ main {
   display: flex;
   height: 100%;
 }
+
+.arrow_back {
+  width: 100%;
+}
+.arrow_back img {
+  width: 5%;
+  transition-duration: .3s;
+}
+
+.arrow_back img:hover {
+  transition-duration: .3s;
+  transform: scale(1.1);
+}
+
+.link_reference {
+  position: relative;
+  color: #aaeaaa;
+  margin: 2%;
+  font-size: .8em;
+}
+.link_reference:hover.link_reference::before{
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  border-radius: 5px;
+  background-color: #ee0000;
+}

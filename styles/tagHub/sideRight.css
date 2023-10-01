@@ -12,15 +12,14 @@
 }
 
 .side_right::-webkit-scrollbar {
-  background-color: purple;
-  width: 20px;
+  background-color: transparent;
+  width: 10px;
   scroll-padding: 1%;
 }
 
 .side_right::-webkit-scrollbar-thumb {
   background-color: white;
   border-radius: 10px;
-  border: 5px solid purple;
 }
 
 .side_content {
